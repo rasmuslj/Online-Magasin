@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;      /* her vælger jeg skrifttype til bodyen til hele siden. Den prioritere arial, hvis muligt, derefter Helvetica,  */
+    font-size: 15px;
+    line-height: 2;
+    background-color:#ffffff;
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    width:90%;
+    margin:15px;
+    overflow:hidden; /*hvis noget ryger uden for containeren kommer der ikke en scroll bar, men bliver gemt i stedet*/ 
+}
+
+
+/* Header */
+header{
+    background:#53381b; /* farve er valgt fra mock up 1 menu med hexidecimal color picker*/
+    color:#ffffff;
+    padding-top:5px;
+    min-height:40px; /* til når den bliver responsiv, bliver den mindst 40px */
+    border-bottom:#edbb02 4px solid;
+}
+
+header a{ /* til links i headeren*/
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 20px;
+
+    
+}
+
+header ul{
+    margin:0;
+    padding:0;
+    
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header .aktiv a{
+    color:#edbb02 /* Så menuen skifter farve, og viser hvilken menu man er på */
+}
+
+header a:hover{
+    font-weight: bold; /* Så teksten bliver bold, når musen hover */
+    
+}
+
+.logo{
+    float:right;
+    padding-left:40px;
+    padding-right:35px;
+}
+
+
+
+#overskrift{
+    padding-left:40px;
+    width:70%;                           /* bruger 70%, synes det ligner mere en artikel, når skriften ikke går hele vejen over siden, det har jeg brugt på næsten alt tekst, og overskrifter */
+    font-size:19px;
+}
+
+#billede1{
+    padding-left:3%;
+}
+
+.artikel1{
+    width:60%;
+    padding-left: 10%;
+    font-size:14px;
+}
+
+
+
+.artikel2{
+    width:85%;
+    padding-left: 10%;
+    font-size:14px;
+}
+
+
+.artikel3{
+    width:70%;
+    font-size:14px;
+}
+#billede2{
+    float:right;
+    padding-left:15px;
+    
+    
+}
+#billede3{
+    float:right;
+    padding-left:15px;
+}
+.artikel5{
+    width:70%;
+    padding-left: 10%;
+    font-size:14px;
+}
+.artikel6{
+    width:80%;
+    
+}
+
+#overskrift3{
+    font-size:30px;
+    text-align: center;
+     }
+
+
+ .responsive {      /* Til infographic på 3 side, så den bliver responsive */
+  width: 80%;
+  height: auto;
+}
+
+footer{
+    background:#53381b;
+    color:#ffffff;
+    text-align: center;
+    padding: 1px;
+    border-top:#edbb02 4px solid;
+    
+}
